@@ -1,0 +1,94 @@
+\documentclass{article}
+\usepackage{Sweave}
+\usepackage{float}
+\usepackage{graphicx}
+\usepackage{tabularx}
+\usepackage{siunitx}
+\usepackage{amssymb} % for math symbols
+\usepackage{amsmath} % for aligning equations
+\usepackage{textcomp}
+\usepackage{mdframed}
+\usepackage{natbib}
+\bibliographystyle{..//refs/styles/besjournals.bst}
+\usepackage[small]{caption}
+\setlength{\captionmargin}{30pt}
+\setlength{\abovecaptionskip}{0pt}
+\setlength{\belowcaptionskip}{10pt}
+\topmargin -1.5cm        
+\oddsidemargin -0.04cm   
+\evensidemargin -0.04cm
+\textwidth 16.59cm
+\textheight 21.94cm 
+%\pagestyle{empty} %comment if want page numbers
+\parskip 7.2pt
+\renewcommand{\baselinestretch}{1.5}
+\parindent 0pt
+%\usepackage{lineno}
+%\linenumbers
+
+%cross referencing:
+\usepackage{xr}
+\usepackage{xr-hyper}
+\externaldocument{/Users/CatherineChamberlain/Documents/git/chillfreeze/docs/chillfrz_supp}
+
+\newmdenv[
+  topline=true,
+  bottomline=true,
+  skipabove=\topsep,
+  skipbelow=\topsep
+]{siderules}
+
+\begin{document}
+
+\noindent \textbf{\Large{Understanding the effects of climate change on Southern Appalachian forests }}
+
+\renewcommand{\thetable}{\arabic{table}}
+\renewcommand{\thefigure}{\arabic{figure}}
+\renewcommand{\labelitemi}{$-$}
+\setkeys{Gin}{width=0.8\textwidth}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section*{Background:}
+\begin{enumerate}
+\item Climate change is impacting ecosystem services, plant and animal communities and forest management regimes. 
+  \begin{enumerate}
+  \item Many plant and animal species are under threat and must rapidly adapt through phenological shifts and/or range shifts \citep{Parmesan2003, Schwartz2006}.
+  \item There is evidence that warming is exasperated at higher elevations \citep{Giorgi1997,Rangwala2012,Pepin2015} and---at higher elevations---species could be restricted, potentially leading to regional extinction \citep{Bachelet2001, Potter2008}.
+  \item Migration may be further hindered through rapid land-use change and forest fragmentation \citep{Opdam2004}.
+  \end{enumerate}
+  
+\item Natural forests are some of the most biodiverse habitats in the US \citep{White1988} and with climate change, the southeastern forests of Appalachia are predicted to be under threat from increased wildfires and thus rapid conversion to savanna \citep{Bachelet2001}.
+  \begin{enumerate}
+  \item In the southern Appalachians, most active forest management occurs in mid-elevation forests where mixed-oak forests dominate the landscape. % verbatim from Tara so need to fix!!!!
+  \end{enumerate}
+\end{enumerate}
+
+
+
+\textbf{\large{From Tara:}}
+In the southern Appalachians, most active forest management occurs in mid-elevation forests where mixed-oak forests dominate the landscape. Stand reconstruction studies conducted in old-growth temperate hardwood forests suggests the structure and composition prior to Euro- American settlement in these mixed-oak forests was complex, with high levels of heterogeneity at both the stand- and landscape level (Rentch et al. 2003a, b). Widespread exploitative logging and other factors associated with Euro-American settlement (e.g., land clearing and subsequent
+2
+land abandonment, wildfires, grazing, etc.), combined with widespread clearcutting on public lands in the mid- to late 20th century effectively homogenized species composition in many places (e.g., conversion of mixed-oak stands to pure yellow-poplar) and reduced the structural complexity at both the stand- and landscape levels (Lorimer 1989, Runkle 1982, Rentch et al. 2003a, b).
+
+Estimates from stand reconstruction studies by Runkle (1982) suggest canopy gaps in old-growth mesophytic forests form at an average rate of one percent per year on an area basis (range 0.5 to 2 percent/yr), and are primarily caused by single-tree mortality, with an average rotation of 100 yrs (range 50 to 200 yrs). These estimates are similar to those reported by Lorimer (1980) who found canopy gap creation due to age- or competition-related mortality occurs at a rate of 0.06 percent per year, but an additional 0.06 to 0.08 percent per year occurs due to exogenous (e.g., drought, wind, insects/disease) disturbance events. A recent study in second-growth upland mixed-oak forests in the southern Appalachians suggests a slightly higher annual rate of mortality than observed in old-growth forests with mortality rates of oak species alone occurring at rates of one percent per year due to oak decline and small-scale wind events (Greenberg et al. 2011). Gap sizes created by endogenous or exogenous disturbance events vary from as low as ~25 m2 (Runkle 1982) to >1000 m2 (Romme and Martin 1982, Rentch et al. 2003a), with most gaps <200 m2 in size (Rentch et al. 2003a).
+
+
+\textbf{\large{From Zakiya:}}
+
+H1.3 The variability in soil temperature, soil moisture and incident PAR at the soil surface will increase with increasing sized gaps and this greater horizontal diversity will be strongly related to soil microbial community structure and functional diversity.
+
+The soil microbial community strongly influences the ecosystem’s response to environmental change. Soil moisture, pH, temperature, cation exchange capacity and elemental concentrations influence soil microbial community structure and functional diversity. A number of recent studies have evaluated the effects of various intensities of forest harvesting on soil microbial community structure (Lewandowski et al. 2015, 2016). In general, our knowledge of belowground responses to canopy gaps remains weak (Schleimann and Bockheim 2011).
+
+The effects of the gap creation will vary over time and space, with gap effects immediately influencing microclimate and nutrient availability (Canham et al. 1999, Mladenoff 1987, Burton et al. 2014, Schatz et al. 2012). We expect light availability and soil temperatures to be greatest in the northern portion of the gap, while maximum soil moisture will occur in the southern portion of the gap (Schatz et al. 2012, Raymond et al. 2006). Changes in soil microbial composition have been related to substrate availability and soil temperature patterns. Few studies have related changing patterns in throughfall created by forest harvesting to soil microbial community structure. Canopy conditions will influence water and solute distribution to forest soils, through either throughfall which accounts for the majority of rainfall reaching forest soils, or stemflow.
+
+Methods: Hemispherical canopy photos will be taken above each of the vegetation quadrats in a N-S transect across each canopy gap, which will capture the main gradient of seasonal solar radiation in gaps at this latitude (Canham et al. 1990, Forrester et al. 2014). Photos will be taken with a Nikon 5000 digital camera with fish-eye lens, mounted on a tripod 1 m above ground. Digital photos will be analyzed using Gap Light Analyzer software to provide an estimate of seasonal radiation at each camera point. Additionally, at these same points a ceptometer will be used to record PAR at 4 heights from the ground surface (Burton et al. 2014). These measurements will be performed once a season in years 1, 2 and 3. These will be calibrated with the LiDAR images.
+
+Soil temperature will be monitored hourly using Thermocron iButtons buried at 7 cm in the mineral soil. Volumetric soil moisture will be measured at least monthly with a portable soil moisture probe throughout the growing season in years 1, 2 and 3.  Throughfall will be monitored for one year (year 2) to assess differences in precipitation inputs between gap environments and closed canopy conditions of the control treatment.
+
+At the subset of vegetation quadrats measured in H1.1, soil cores will be collected in summer of year 2 and will be used to characterize the soil microbial functional groups present at each location and soil nutrient content. We will submit soil cores to NCSU Soil Lab for standard nutrient analysis and to Microbial iD lab (Newark, DE) for PLFA analysis. The relationship of vertical and horizontal structure, microclimate variables and soil microbial community structure will be evaluated with structural equation modeling.
+
+\bibliography{..//refs/gaps.bib}
+
+\end{document}
