@@ -54,24 +54,36 @@
 \begin{enumerate}
 \item Climate change is impacting ecosystem services, plant and animal communities and forest management regimes. 
   \begin{enumerate}
-  \item Many plant and animal species are under threat and must rapidly adapt through phenological shifts and/or range shifts \citep{Parmesan2003, Schwartz2006}.
-  \item There is evidence that warming is exasperated at higher elevations \citep{Giorgi1997,Rangwala2012,Pepin2015} and---at higher elevations---species could be restricted, potentially leading to regional extinction \citep{Bachelet2001, Potter2008}.
+  \item Many plant and animal species are under threat and must rapidly adapt through phenological shifts and/or range shifts northward to avoid harsher southern climatic conditions with warming \citep{Parmesan2003, Schwartz2006}.
+  \item There is evidence that climate change is exasperated at higher elevations \citep{Giorgi1997,Rangwala2012,Pepin2015} and at higher elevations species' ranges could be restricted, potentially leading to regional extinction \citep{Bachelet2001, Potter2008}.
   \item Migration may be further hindered through rapid land-use change and forest fragmentation \citep{Opdam2004}.
   \end{enumerate}
   
-\item Natural forests are some of the most biodiverse habitats in the US \citep{White1988} and with climate change, the southeastern forests of Appalachia are predicted to be under threat from increased wildfires and thus rapid conversion to savanna \citep{Bachelet2001}.
-  \begin{enumerate}
-  \item In the southern Appalachians, most active forest management occurs in mid-elevation forests where mixed-oak forests dominate the landscape. % verbatim from Tara so need to fix!!!!
+\item Natural forests are some of the most biodiverse habitats in the US \citep{White1988} and with climate change, the southeastern forests of Appalachia are predicted to be under threat from increased wildfires and rapid conversion to savanna \citep{Bachelet2001}.
+  \begin{enumerate} 
+  \item Due to exploitative logging, clearcutting, grazing and wildfires at mid-elevations, these forests have become less complex over time, converted from historically mixed-oak stands to pure homogenized stands of yellow poplar \citep{Lorimer1989, Rentch2003, Rentch2003b, Runkle1982}.
+  \item The combined effects of increasing temperatures and decreasing precipitation is impacting tree species differently, with profound effects on drought-intolerant species leading to northward and westward shifts \citep{Fei2017}.
+  \item Additionally, there is growing evidence that southern Appalachian forests are transitioning to shade-tolerant, fire-resistent species such red maple and American beech \citep{Fei2017, Knott2019} and there is a reduction in oak regeneration \citep{Izbicki2020}.
   \end{enumerate}
+  
+\item Though Oak species are generally fire-resistent, they are also shade-intolerant, thus forest management teams are working to regenerate oaks by establishing gaps in canopies in combination with prescirbed fires.
+  \begin{enumerate}
+  \item Recent studies suggest gaps must be large enough for oaks to regenerate successfully and demonstrate significant increases in photosynthetic rates and growing season lengths \citep{Zhang2020}. 
+  \item Oaks are considered foundation species \citep{Ellison2011, Mitchell2019} and greatly influence forest hydrology \citep{Arthur2012}, nutrient cycling \citep{Arthur2012} and contribute to increases in biodiversity \citep{Mitchell2019, Izbicki2020}. 
+  \item Thus, it is essential to understand the effects of climate change on southern Appalachian forest habitats and the cascading impacts to our cricial carbon sinks. 
+  \end{enumerate}
+  
+\item Need a paragraph on drought tolerance and the effects of climate change here
+
+\item Need a paragraph on soil microbes and why this is related and important
+  
+\item \textbf{The overall aim of our proposed research is to investigate three (?) gap types to closed canopy sites in the southern Appalachian Mountains to assess (1) forest recruitment of the dominant oak species and report diversity and richness of shade-tolerant vs shade-intolerant species over time, (2) drought tolerance of the dominant tree species across the three gap and closed canopy sites using a greenhouse and growth chamber cutting experiment and (3) soil microbial community structure of the gap sites versus the closed canopy sites.}
+  
 \end{enumerate}
 
 
 
 \textbf{\large{From Tara:}}
-In the southern Appalachians, most active forest management occurs in mid-elevation forests where mixed-oak forests dominate the landscape. Stand reconstruction studies conducted in old-growth temperate hardwood forests suggests the structure and composition prior to Euro- American settlement in these mixed-oak forests was complex, with high levels of heterogeneity at both the stand- and landscape level (Rentch et al. 2003a, b). Widespread exploitative logging and other factors associated with Euro-American settlement (e.g., land clearing and subsequent
-2
-land abandonment, wildfires, grazing, etc.), combined with widespread clearcutting on public lands in the mid- to late 20th century effectively homogenized species composition in many places (e.g., conversion of mixed-oak stands to pure yellow-poplar) and reduced the structural complexity at both the stand- and landscape levels (Lorimer 1989, Runkle 1982, Rentch et al. 2003a, b).
-
 Estimates from stand reconstruction studies by Runkle (1982) suggest canopy gaps in old-growth mesophytic forests form at an average rate of one percent per year on an area basis (range 0.5 to 2 percent/yr), and are primarily caused by single-tree mortality, with an average rotation of 100 yrs (range 50 to 200 yrs). These estimates are similar to those reported by Lorimer (1980) who found canopy gap creation due to age- or competition-related mortality occurs at a rate of 0.06 percent per year, but an additional 0.06 to 0.08 percent per year occurs due to exogenous (e.g., drought, wind, insects/disease) disturbance events. A recent study in second-growth upland mixed-oak forests in the southern Appalachians suggests a slightly higher annual rate of mortality than observed in old-growth forests with mortality rates of oak species alone occurring at rates of one percent per year due to oak decline and small-scale wind events (Greenberg et al. 2011). Gap sizes created by endogenous or exogenous disturbance events vary from as low as ~25 m2 (Runkle 1982) to >1000 m2 (Romme and Martin 1982, Rentch et al. 2003a), with most gaps <200 m2 in size (Rentch et al. 2003a).
 
 
