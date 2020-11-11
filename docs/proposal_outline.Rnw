@@ -1,4 +1,4 @@
-\documentclass{article}
+\documentclass{article}[11pt]
 \usepackage{Sweave}
 \usepackage{float}
 \usepackage{graphicx}
@@ -20,7 +20,7 @@
 \textheight 21.94cm 
 %\pagestyle{empty} %comment if want page numbers
 \parskip 7.2pt
-\renewcommand{\baselinestretch}{2}
+\renewcommand{\baselinestretch}{1}
 \parindent 0pt
 \usepackage{lineno}
 \linenumbers
@@ -47,17 +47,10 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \section*{Background:}
-\begin{enumerate}
-\item Climate change is impacting ecosystem services, plant and animal communities and forest management regimes. 
-  \begin{enumerate}
-  \item Many plant and animal species are under threat and must rapidly adapt through phenological shifts and/or range shifts northward to avoid harsher southern climatic conditions with warming \citep{Parmesan2003, Schwartz2006}.
-  \item There is evidence that climate change is exasperated at higher elevations \citep{Giorgi1997,Rangwala2012,Pepin2015} and at higher elevations species' ranges could be restricted, potentially leading to regional extinction \citep{Bachelet2001, Potter2008}.
-  \item Migration may be further hindered through rapid land-use change and forest fragmentation \citep{Opdam2004}.
-  \end{enumerate}
+Climate change is impacting plant and animal communities, ecosystem services and forest management practices. Many plant and animal species are under threat and must rapidly adapt through phenological shifts and/or range shifts northward to avoid harsher southern climatic conditions with warming \citep{Parmesan2003, Schwartz2006}. There is evidence that climate change is exasperated at higher elevations \citep{Giorgi1997,Rangwala2012,Pepin2015} and at higher elevations species' ranges could be restricted, potentially leading to regional extinction \citep{Bachelet2001, Potter2008}. Thus, through the coupled effects of rapid land-use change and forest fragmentation, tree species migration will be adversely affected, leading to profound impacts on forests and carbon sinks \citep{Opdam2004}. % may further hinder tree species migration
   
-\item Natural forests are some of the most biodiverse habitats in the US \citep{White1988} and with climate change, the southeastern forests of Appalachia are predicted to be under threat from increased wildfires and rapid conversion to savanna \citep{Bachelet2001}.
-  \begin{enumerate} 
-  \item Due to exploitative logging, clearcutting, grazing and wildfires at mid-elevations, these forests have become less complex over time, converted from historically mixed-oak stands to more homogenized stands of yellow poplar or red maple and American beech \citep{Lorimer1989, Rentch2003, Rentch2003b, Runkle1982}.
+Natural forests are some of the most biodiverse habitats in the US \citep{White1988} and with climate change, the southeastern forests of Appalachia are predicted to be under threat from increased wildfires and rapid conversion to savanna \citep{Bachelet2001}. Due to exploitative logging, clearcutting, grazing and wildfires at mid-elevations, these forests have become less complex over time, converted from historically mixed-oak stands to more homogenized stands of yellow poplar or red maple and American beech \citep{Lorimer1989, Rentch2003, Rentch2003b, Runkle1982}.
+  \item Climate change coupled with human impact is resulting in the creation of gaps, which ARE DEFINE HERE! 
   \item The combined effects of increasing temperatures and decreasing precipitation is impacting tree species differently, with profound effects on drought-intolerant species leading to northward and westward range shifts \citep{Fei2017}.
   \item Additionally, there is growing evidence that southern Appalachian forests are transitioning to shade-tolerant, fire-resistent species such red maple and American beech \citep{Fei2017, Knott2019} and there is a reduction in oak regeneration \citep{Izbicki2020}.
   \end{enumerate}
@@ -88,13 +81,13 @@
 
 %The effects of the gap creation will vary over time and space, with gap effects immediately influencing microclimate and nutrient availability \citep{Canham1999, Mladenoff1987, Burton2014, Schatz2012}. We expect light availability and soil temperatures to be greatest in the northern portion of the gap, while maximum soil moisture will occur in the southern portion of the gap \citep{Schatz2012, Raymond2006}. Changes in soil microbial composition have been related to substrate availability and soil temperature patterns. Few studies have related changing patterns in throughfall created by forest harvesting to soil microbial community structure. Canopy conditions will influence water and solute distribution to forest soils, through either throughfall which accounts for the majority of rainfall reaching forest soils, or stemflow.
   
-\item \textbf{The overall aim of our proposed research is to investigate gap size and compare these to closed canopy sites in the southern Appalachian Mountains to assess (1) forest recruitment of the dominant species and report diversity and richness of shade-tolerant vs shade-intolerant species over time, (2) drought tolerance of the dominant tree species across the three gap and closed canopy sites using a greenhouse and growth chamber cutting experiment and (3) soil microbial community structure, variability in soil temperature, soil moisture and incident PAR of the gap sites versus the closed canopy sites and changes over time.}
+\item \textbf{The overall aim of our proposed research is to investigate gap sites in varying size classes and compare these to closed canopy sites in the southern Appalachian Mountains to assess (1) forest recruitment of the dominant species and report diversity and richness of shade-tolerant vs shade-intolerant species over time, (2) drought tolerance of the dominant tree species across the gap and closed canopy sites using a greenhouse and growth chamber cutting experiment and (3) soil microbial community structure, variability in soil temperature, soil moisture and incident PAR of the gap sites versus the closed canopy sites and changes over time.}
   
 \end{enumerate}
 
 \section*{\textbf{H1: The effects of gap size and location will impact species composition, recruitment and phenology.  }}
 \begin{enumerate}
-\item Using three gap types in comparison to closed-canopy forested sites in the southern Appalachian mountains we will examin 10 different woody plant tree and shrub species with 8 individuals per species: \textit{Acer rubrum}, \textit{Betula?}, \textit{Fagus grandifolia}, \textit{Hammamelis virginiana}, \textit{Nyssa sylvatica}, \textit{Quercus rubra}, \textit{Quercus alba} and \textit{Sorbus americana}. (NEED TWO MORE SPECIES! AND TO REVIEW THIS LIST)
+\item Using various gap types in comparison to closed-canopy forested sites in the southern Appalachian mountains we will examin 10 different woody plant tree and shrub species with 8 individuals per species: \textit{Acer rubrum}, \textit{Betula?}, \textit{Fagus grandifolia}, \textit{Hammamelis virginiana}, \textit{Nyssa sylvatica}, \textit{Quercus rubra}, \textit{Quercus alba} and \textit{Sorbus americana}. (NEED TWO MORE SPECIES! AND TO REVIEW THIS LIST)
   \begin{enumerate}
   \item For each individual, we will measure a radius of 5m around each tree and record all species present within that circle. 
   \item We will evaluate percent herbivory of the focal individual and monitor herbivory over the growing season.
