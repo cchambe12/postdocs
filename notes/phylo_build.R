@@ -65,8 +65,11 @@ phy.plants.micro<-drop.tip(phy.micro.clean,
 # only 32 species are in the phylogeny
 
 phylo <- plot(phy.plants.micro,cex=.8)
-pdf("~/Documents/git/postdocs/notes/phylo.pdf",
-    width = 8, height = 8)
+pdf("~/Documents/git/postdocs/notes/phylo.pdf", 
+     width=3,
+     height=3 )
+plot(phy.plants.micro,cex=.5)
+dev.off()
 
 if(FALSE){
 ## save phylogeny

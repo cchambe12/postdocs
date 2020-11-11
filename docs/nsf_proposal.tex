@@ -1,0 +1,186 @@
+\documentclass[11pt]{article}\usepackage[]{graphicx}\usepackage[]{color}
+% maxwidth is the original width if it is less than linewidth
+% otherwise use linewidth (to make sure the graphics do not exceed the margin)
+\makeatletter
+\def\maxwidth{ %
+  \ifdim\Gin@nat@width>\linewidth
+    \linewidth
+  \else
+    \Gin@nat@width
+  \fi
+}
+\makeatother
+
+\definecolor{fgcolor}{rgb}{0.345, 0.345, 0.345}
+\newcommand{\hlnum}[1]{\textcolor[rgb]{0.686,0.059,0.569}{#1}}%
+\newcommand{\hlstr}[1]{\textcolor[rgb]{0.192,0.494,0.8}{#1}}%
+\newcommand{\hlcom}[1]{\textcolor[rgb]{0.678,0.584,0.686}{\textit{#1}}}%
+\newcommand{\hlopt}[1]{\textcolor[rgb]{0,0,0}{#1}}%
+\newcommand{\hlstd}[1]{\textcolor[rgb]{0.345,0.345,0.345}{#1}}%
+\newcommand{\hlkwa}[1]{\textcolor[rgb]{0.161,0.373,0.58}{\textbf{#1}}}%
+\newcommand{\hlkwb}[1]{\textcolor[rgb]{0.69,0.353,0.396}{#1}}%
+\newcommand{\hlkwc}[1]{\textcolor[rgb]{0.333,0.667,0.333}{#1}}%
+\newcommand{\hlkwd}[1]{\textcolor[rgb]{0.737,0.353,0.396}{\textbf{#1}}}%
+\let\hlipl\hlkwb
+
+\usepackage{framed}
+\makeatletter
+\newenvironment{kframe}{%
+ \def\at@end@of@kframe{}%
+ \ifinner\ifhmode%
+  \def\at@end@of@kframe{\end{minipage}}%
+  \begin{minipage}{\columnwidth}%
+ \fi\fi%
+ \def\FrameCommand##1{\hskip\@totalleftmargin \hskip-\fboxsep
+ \colorbox{shadecolor}{##1}\hskip-\fboxsep
+     % There is no \\@totalrightmargin, so:
+     \hskip-\linewidth \hskip-\@totalleftmargin \hskip\columnwidth}%
+ \MakeFramed {\advance\hsize-\width
+   \@totalleftmargin\z@ \linewidth\hsize
+   \@setminipage}}%
+ {\par\unskip\endMakeFramed%
+ \at@end@of@kframe}
+\makeatother
+
+\definecolor{shadecolor}{rgb}{.97, .97, .97}
+\definecolor{messagecolor}{rgb}{0, 0, 0}
+\definecolor{warningcolor}{rgb}{1, 0, 1}
+\definecolor{errorcolor}{rgb}{1, 0, 0}
+\newenvironment{knitrout}{}{} % an empty environment to be redefined in TeX
+
+\usepackage{alltt}
+\usepackage{Sweave}
+\usepackage{float}
+\usepackage{tabularx}
+\usepackage[top=1.00in, bottom=1.0in, left=1.1in, right=1.1in]{geometry}
+\renewcommand{\baselinestretch}{1}
+\usepackage{graphicx}
+\usepackage{wrapfig}
+\usepackage{amsmath}
+\usepackage{rotating}
+\usepackage[square,numbers]{natbib}
+\bibliographystyle{abbrnat} 
+
+\parindent=15pt
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
+\begin{document}
+
+%\noindent \textbf{\Large{Understanding the effects of climate change on southern Appalachian forests }}
+
+\renewcommand{\thetable}{\arabic{table}}
+\renewcommand{\thefigure}{\arabic{figure}}
+\renewcommand{\labelitemi}{$-$}
+\setkeys{Gin}{width=0.8\textwidth}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+{\noindent\Large{\textbf{Background:}}}\\
+Climate change is impacting plant and animal communities, ultimately reshaping the species, ecosystem services and forest management practices those communities support. Many plant and animal species are under threat from warming and must rapidly adapt through phenological shifts and/or range shifts northward to avoid harsher southern climatic conditions \citep{Parmesan2003, Schwartz2006}. There is increasing evidence that climate change is exasperated at higher elevations \citep{Giorgi1997,Rangwala2012,Pepin2015} and at higher elevations species' ranges could be restricted, potentially leading to regional extinction \citep{Bachelet2001, Potter2008}. Thus, through the effects of stress and disturbance from warming, tree species migration will be adversely affected, leading to profound impacts on forests and carbon sinks \citep{Opdam2004}. % may further hinder tree species migration
+  
+Natural forests are some of the most biodiverse habitats in the United States \citep{White1988} and with climate change, the southeastern forests of Appalachia are predicted to be under threat from increased wildfires and rapid conversion to savanna \citep{Bachelet2001}. Due to exploitative logging, clearcutting, grazing and wildfires at mid-elevations, these forests have become less complex over time, converted from historically mixed-oak stands to more homogenized stands of yellow poplar or red maple and American beech \citep{Lorimer1989, Rentch2003, Rentch2003b, Runkle1982}. Climate change coupled with rapid land-use change is resulting in the creation of gaps of varying size within forest canopies \citep{Canham1999}. The combined effects of increasing temperatures and decreasing precipitation is impacting tree species differently, with extensive effects on drought-intolerant species leading to northward and westward range shifts \citep{Fei2017}. Additionally, there is growing evidence that southern Appalachian forests are transitioning to shade-tolerant, fire-resistant species such red maple and American beech \citep{Fei2017, Knott2019} and there is a reduction in foundation species' regeneration \citep{Izbicki2020}.
+  
+Though oak species (i.e., \textit{Quercus} genus) are generally fire-resistant, they are also shade-intolerant, thus forest management teams are working to regenerate oaks by establishing gaps in canopies in combination with prescribed fires. Recent studies suggest gaps must be large enough for oaks to regenerate successfully and demonstrate significant increases in photosynthetic rates and growing season lengths \citep{Zhang2020}. Oaks are considered foundation species \citep{Ellison2005, Mitchell2019} and greatly influence forest hydrology \citep{Arthur2012}, nutrient cycling \citep{Arthur2012} and contribute to increases in biodiversity \citep{Mitchell2019, Izbicki2020}. It is therefore essential to understand the effects of climate change on southern Appalachian forest habitats---with a strong focus on oak species---and the cascading impacts to our crucial carbon sinks. 
+  
+Climate change is impacting forests in myriad ways---some of which are positive (i.e., increased \ce{CO2} fertilization and longer growing seasons)---but many are detrimental such as increased stress from rising temperatures and decreasing precipitation leading to increased tree mortality from drought \citep{Ayers2000, Bachelet2001, Lloyd2007, Allen2010}. Repeated incidence of drought generally leads to increased vulnerability and subsequent decreases in forest resilience \citep{Allen2010,Anderegg2020}. Understanding initial drought tolerance is therefore essential to predict future shifts in forest community dynamics. Some species will be more at risk of pests and pathogens following a drought and other habitats will have larger microclimatic variation, leading to a mosaic of drought risk within a forest \citep{Ayers2000,Anderegg2020}. By assessing both inter- and intra-specific variation in drought tolerance, pest damage and microclimatic impact, we can better predict the effects of climate change on temperate forests. 
+  
+Disturbance to canopy trees and the creation of gaps in forests can lead to myriad effects including to increased competition through light availability as well as changes to soil temperature, moisture and microbial community structure. Canopy disturbance often leads to increases in soil nitrogen availability, which can allow for understory species to out-compete regenerating seedlings and saplings like oaks \citep{Taylor2016, Mladenoff1987}. Canopy gaps---especially more northern gaps---with higher soil temperatures have significantly higher total growing season carbon flux then those with lower temperatures and less light availability \citep{Schatz2012, Raymond2006}. Thus, identifying microclimatic soil variation in gap and closed-canopy sites is essential for accurate carbon flux forecasting and, by maintaining mixed-forest growth, there is a reduction in risk from the adverse effects of global climate change. \\
+
+{\noindent\Large\textbf{Research Objectives:}}\\
+The overall aim of our proposed research is to investigate gap sites in varying size classes and compare these to closed canopy sites in the southern Appalachian Mountains to assess (1) forest recruitment of the dominant species and report diversity and richness of shade-tolerant vs shade-intolerant species over time, (2) drought tolerance of the dominant tree species across the gap and closed canopy sites using a greenhouse and phytotron cutting experiment and (3) soil microbial community structure, variability in soil temperature, soil moisture and incident PAR of the gap sites versus the closed canopy sites to understand and predict the impacts of climate change on temperate forest resilience.\\
+
+\textbf{Hypothesis 1: The effects of gap size and location will impact species composition, recruitment and phenology.} Using various gap types in comparison to closed-canopy forested sites in the southern Appalachian Mountains we will examine 10 different woody plant tree and shrub species---with overlapping phylogenies---with 8 individuals per species: \textit{Acer rubrum}, \textit{Acer saccharum}, \textit{Betula nigra}, \textit{Corylus cornuta}, \textit{Carpinus caroliniana}, \textit{Fagus grandifolia}, \textit{Hammamelis virginiana}, \textit{Quercus alba}, \textit{Quercus montana} and \textit{Quercus rubra}. For each individual, we will measure a radius of 5m around each tree and record all species present within that circle. With this experiment we propose to: evaluate percent herbivory of the focal individual and monitor herbivory over the growing season; quantify and classify the number of seedlings and saplings of each dominant tree species within the site to evaluate recruitment; measure the diameter at breast height (DBH) for all trees and shrubs within the site; monitor early season phenology (i.e., budburst and leafout) of the focal individual and also late season phenology (i.e., leaf drop and budset); and record carbon sequestration measurements.
+  
+%\begin{wrapfigure}{r}{0.5\textwidth}
+%\begin{center}
+%\includegraphics[width=0.48\textwidth]{/Users/catchamberlain/Documents/git/postdocs/notes/phylo.pdf} 
+%\end{center}
+%\end{wrapfigure}
+
+\textbf{Expected Outcomes and Significance:} This experiment will greatly increase forecasts for mixed-forest, mid-elevation sites under climate change. We expect sites at the northern edge of large gap sites (i.e., gaps with diameter as larger or larger than the height of the surrounding canopy trees \citep{Raymond2006}) will have longer growing seasons, warmer soil temperatures and greater carbon flux than closed-canopy sites. We also anticipate that mixed-forest, heterogenous sites will have larger levels of recruitment and soil nutrients than more homogenized sites. Understanding the effects of warming---and the subsequent risk of disturbances---on temperate forests is essential for informing climate forecast models. \\
+
+{ \textbf{Hypothesis 2: Drought tolerance of the dominant tree species will vary across the gap and closed-canopy sites.}} Using a phytotron and greenhouse experiment, we will take cuttings from the focal tree individuals in Experiment 1 to test drought tolerance with warming. In the fall of 2021---after budset and before complete leaf drop, we will take 10-16 cuttings of \~30cm for each individual. Upon delivery to the lab, we will place the cuttings in dormancy conditions of 4$^\circ{}$C for 8 weeks, rotating individuals every two weeks to minimize bias from possible phytotron effects. After 8 weeks, we will place the individuals in greenhouse conditions and expose to ambient light and temperature to induce budburst. Once full leafout is reached, we will expose individuals to three levels of drought conditions: (1) control group, (2) little to no precipitation, (3) medium levels of precipitation.  Phenology, mortality, soil moisture, soil temperature and nutrient levels will be evaluated. After 8 weeks of drought conditions, we will water half of the treatment groups to evaluate recovery. 
+
+%\begin{wrapfigure}{l}{0.5\textwidth}
+%\begin{center}
+%\includegraphics[width=0.48\textwidth]{/Users/catchamberlain/Desktop/Misc/Chilfreeze Misc/exp photos/gh_early.png} 
+%\end{center}
+%\end{wrapfigure}
+  
+\textbf{Expected Outcomes and Significance:} By evaluating initial drought tolerance across the 10 dominant species of the southern Appalachians, we will be able to better predict the effects of climate change on mixed-forest growth.  We expect higher interspecific variability in drought tolerance and also low levels of intraspecific variation across the gap size and locations, with individuals from larger, more northern sites having higher levels of drought tolerance than closed-canopy individuals. These findings are critical for forecasts as stress and disturbance are predicted to increase with warming. \\
+
+{ \textbf{Hypothesis 3: The variability in soil temperature, soil moisture and soil nutrients at the soil surface will increase with increasing sized gaps.}} Understanding soil microbial community structure is a strong predictor for site response to environmental change. We will record hourly soil temperature at each site using Hobo Loggers buried 7cm below the soil surface. Volumetric soil moisture will be measured monthly using a portable soil moisture probe and throughfall will be recorded for each field season. We will collect soil cores from 0-10cm and 10-20cm for each field season and compare to soil cores collected at the same or similar sites from 2017 to compare soil microbial functional groups and nutrient content. We will then submit the soil cores to NCSU Soil Lab for standard nutrient analysis and to Microbial iD lab (Newark, DE) for PLFA analysis. Using structural equation modeling, we will evaluate the relationship of vertical and horizontal structure and soil microbial community structure.
+  
+\textbf{Expected Outcomes and Significance:} Through the interactive effects of climate change and rapid land-use change, gap size and location will influence soil microclimatic conditions as well as nutrient availability. We expect light availability and soil temperatures to be greatest in the northern portion of the gap, while maximum soil moisture will occur in the southern portion of the gap \citep{Schatz2012, Raymond2006}.  By examining belowground responses to canopy gaps through soil moisture, temperature and nutrient composition, we will be able to greatly improve predictive climate models for the region and likely contribute to global modelling systems. \\
+
+{\noindent\Large{\textbf{Broader Impacts \& Career Development:}}}\\
+Over the course of my proposed research timeline, I intend to also develop and teach a 1 credit course for PhD students---especially BIPOC graduate students---how to develop grant proposals in ecology for NSF, USDA, NOAA or any other preferred agency and assist students with securing a host advisor and/or university. By providing this opportunity, I will be able to hone my teaching and curriculum development skills while helping train students in an area not otherwise covered in the PhD experience. This course would involve bringing in guest lecturers and facilitating attendence to webinars offered by the aforementioned agencies.
+Under the Inter-Institutional Program with the Univeristy of North Carolina system, students from may register for courses at North Carolina State University, therefore, this course could be advertised to doctoral students at other universities in the area including Duke, North Carolina Central University and University of North Carolina partner schools. 
+
+In addition to enhancing diversity at the postdoctoral level, I also propose to establish a mentorship pipeline for BIPOC individuals within the Doris Duke Conservation Scholars Program---where Dr Zakiya Leggett is campus director. Under the pipeline program, I will train graduate students, who will train undergraduate students who will train high school students, with the goal of increasing diversity in ecology at all levels. I intend to dedicate a percentage of my \$15000 yearly stipend to funding the undergraduate and high school students in this pipeline program. By providing this training, we will better prepare students for postdoctoral work later in their career. Dr Leggett is developing/building upon an existing training developed for the Doris Duke Conservation Scholars Program for mentors that have never advised BIPOC students for her NNF program, which will be used under the pipeline training scheme.
+
+I will further sharpen my curriculum development for ecology and natural resources by co\-mentoring graduate students in the College of Education focused on Natural Resources Diversity Curriculum Integration
+Student, which is currently reviewing entry level courses at North Carolina State University and developing modules to incorporate diversity and inclusion into the course.
+Finally, I will co\-facilitate working groups with an NSF funded RCN---The Undergraduate Network for Increasing Diversity of Ecologists (UNIDE). The project aims to build a sustainable and interdisciplinary network of ecologists, educators and social scientists to address how cultural and social barriers impact human diversity in ecology and environmental disciplines (EE). These two opportunities will help develop skills in the area of curriculum development, pedagogy, and meeting facilitation.\\
+
+
+{\noindent\Large{\textbf{Justification of Sponsoring Scientist and Host Institution:}}}\\
+The proposed experiments and broader impact programs will be carried out in the lab of Dr. Zakiya Leggett in the College of Natural Resources at North Carolina State University. Throughout my graduate career, I primarily focused my research on investigating the effects of climate change on the intensity and frequency of late spring freezing events and the subsequent damage on forest ecosystems but I also helped lead a citizen science program and volunteered and worked part time for The Nature Conservancy. This experience has taught me how to work with different sectors and to teach and mentor individuals of all backgrounds and ages. Over the past several years, I have gained experience not only in publishing peer reviewed manuscripts but also documents for the general public and sharpened my teaching and communication skills with high school through graduate level students and the public. By joining the Leggett Lab, I will be able to further develop these skills while maintaining and interface with the nonprofit sector. I will learn meeting facilitation, new BIPOC training skills, grant writing, teaching and curriculum development as well as soil measurement techniques and carbon sequestration modelling skills. Dr Leggett's work with the Doris Duke Scholars Program and UNIDE will make it possible for me to acheive my broader impact goals while also maintaining my path towards understanding the effects of climate change on forests and our carbon sinks.\\
+
+{\noindent\Large{\textbf{Proposed Research Timeline:}}}
+\begin{center}
+%\captionof{table}{Proposed Reseach Outline}
+\begin{tabular}{| c | c | p{62mm} | p{60mm} |}
+\hline
+\textbf{Year} & \textbf{Season} & \textbf{Research} & \textbf{Broader Impacts} \\
+\hline
+2021 & Summer & Identify focal individuals and plots \newline Deploy hobo loggers & Advertise course \newline Recruit for pipeline program\\
+\hline
+2021 & Summer & Record observations for \textbf{Exp 1 \& 3} & Develop IDP \newline Hire students  \\
+\hline
+2021 & Fall & Record phenology; take cuttings for \textbf{Exp 2} & Make course available \newline Maintain mentorship  \\
+\hline
+2021 & Winter & Set up \textbf{Exp 2} \newline Place individuals in chilling & Develop website for program \newline Hire new students  \\
+\hline
+2022 & Winter & Begin drought treatments for \textbf{Exp 2} \newline Record observations & Begin teaching  \\
+\hline
+2022 & Spring & Record phenology for \textbf{Exp 1} & Begin webinar series \newline Train students field skills  \\
+\hline
+2022 & Summer & Record observations for \textbf{Exp 1 \& 3} & Continue webinar series \newline Train students field skills  \\
+\hline
+2022 & Fall & Record phenology; Begin analyses & Update course materials  \\
+\hline
+2023 & Winter & Prepare manuscripts for submission & Offer the course again \newline Maintain pipeline program in lab\\
+\hline
+\end{tabular}
+\end{center}
+
+
+
+
+
+\iffalse
+\section* {\textbf{Research Timeline:}}
+  \begin{enumerate}
+  \item In the summer 2021, we will identify all individuals to be used in the study and measure plots. 
+  \item We will record all presence/absence data for species composition, measure DBH, species recruitment and soil temperature, moisture and nutrient measurements. 
+  \item In the fall 2021, we will record late season phenology and take cuttings for \textbf{Experiment 2}. 
+  \item In the fall and winter 2021, we will implement chilling treatments for the cutting experiment (i.e., Experiment 2). 
+  \item In the late winter and early spring 2022, we will expose individuals to the drought treatment in the phytotrons and record observations. 
+  \item In early spring 2022, we will record phenology observations for all focal individuals in Experiment 1.
+  \item In the summer and fall of 2022, we will again record presence/absence data for species composition, record DBH, measure species recruitment, take soil measurements and record late season phenology of focal individuals. 
+  \item In the fall and winter of 2022, we will run and build Bayesian hierarchical models to quantify and forecast carbon flux of these sites. 
+  \end{enumerate}
+\fi
+
+
+\bibliography{/Users/catchamberlain/Documents/git/postdocs/refs/gaps.bib}
+
+\end{document}
+
+
+
+
+%%%% Extra notes:
+%\textbf{\large{From Tara:}}
+%Estimates from stand reconstruction studies by Runkle (1982) suggest canopy gaps in old-growth mesophytic forests form at an average rate of one percent per year on an area basis (range 0.5 to 2 percent/yr), and are primarily caused by single-tree mortality, with an average rotation of 100 yrs (range 50 to 200 yrs). These estimates are similar to those reported by Lorimer (1980) who found canopy gap creation due to age- or competition-related mortality occurs at a rate of 0.06 percent per year, but an additional 0.06 to 0.08 percent per year occurs due to exogenous (e.g., drought, wind, insects/disease) disturbance events. A recent study in second-growth upland mixed-oak forests in the southern Appalachians suggests a slightly higher annual rate of mortality than observed in old-growth forests with mortality rates of oak species alone occurring at rates of one percent per year due to oak decline and small-scale wind events (Greenberg et al. 2011). Gap sizes created by endogenous or exogenous disturbance events vary from as low as ~25 m2 (Runkle 1982) to >1000 m2 (Romme and Martin 1982, Rentch et al. 2003a), with most gaps <200 m2 in size (Rentch et al. 2003a).
