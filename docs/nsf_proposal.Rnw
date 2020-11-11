@@ -1,54 +1,4 @@
-\documentclass[11pt]{article}\usepackage[]{graphicx}\usepackage[]{color}
-% maxwidth is the original width if it is less than linewidth
-% otherwise use linewidth (to make sure the graphics do not exceed the margin)
-\makeatletter
-\def\maxwidth{ %
-  \ifdim\Gin@nat@width>\linewidth
-    \linewidth
-  \else
-    \Gin@nat@width
-  \fi
-}
-\makeatother
-
-\definecolor{fgcolor}{rgb}{0.345, 0.345, 0.345}
-\newcommand{\hlnum}[1]{\textcolor[rgb]{0.686,0.059,0.569}{#1}}%
-\newcommand{\hlstr}[1]{\textcolor[rgb]{0.192,0.494,0.8}{#1}}%
-\newcommand{\hlcom}[1]{\textcolor[rgb]{0.678,0.584,0.686}{\textit{#1}}}%
-\newcommand{\hlopt}[1]{\textcolor[rgb]{0,0,0}{#1}}%
-\newcommand{\hlstd}[1]{\textcolor[rgb]{0.345,0.345,0.345}{#1}}%
-\newcommand{\hlkwa}[1]{\textcolor[rgb]{0.161,0.373,0.58}{\textbf{#1}}}%
-\newcommand{\hlkwb}[1]{\textcolor[rgb]{0.69,0.353,0.396}{#1}}%
-\newcommand{\hlkwc}[1]{\textcolor[rgb]{0.333,0.667,0.333}{#1}}%
-\newcommand{\hlkwd}[1]{\textcolor[rgb]{0.737,0.353,0.396}{\textbf{#1}}}%
-\let\hlipl\hlkwb
-
-\usepackage{framed}
-\makeatletter
-\newenvironment{kframe}{%
- \def\at@end@of@kframe{}%
- \ifinner\ifhmode%
-  \def\at@end@of@kframe{\end{minipage}}%
-  \begin{minipage}{\columnwidth}%
- \fi\fi%
- \def\FrameCommand##1{\hskip\@totalleftmargin \hskip-\fboxsep
- \colorbox{shadecolor}{##1}\hskip-\fboxsep
-     % There is no \\@totalrightmargin, so:
-     \hskip-\linewidth \hskip-\@totalleftmargin \hskip\columnwidth}%
- \MakeFramed {\advance\hsize-\width
-   \@totalleftmargin\z@ \linewidth\hsize
-   \@setminipage}}%
- {\par\unskip\endMakeFramed%
- \at@end@of@kframe}
-\makeatother
-
-\definecolor{shadecolor}{rgb}{.97, .97, .97}
-\definecolor{messagecolor}{rgb}{0, 0, 0}
-\definecolor{warningcolor}{rgb}{1, 0, 1}
-\definecolor{errorcolor}{rgb}{1, 0, 0}
-\newenvironment{knitrout}{}{} % an empty environment to be redefined in TeX
-
-\usepackage{alltt}
+\documentclass[11pt]{article}
 \usepackage{Sweave}
 \usepackage{float}
 \usepackage{tabularx}
@@ -64,7 +14,6 @@
 
 \def\labelitemi{--}
 \parindent=15pt
-\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
 \begin{document}
 
 %\noindent \textbf{\Large{Understanding the effects of climate change on southern Appalachian forests }}
@@ -77,7 +26,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\noindent\large{\textbf{Background:}}\\
+\noindent\Large{\textbf{Background:}}\\
 Climate change is impacting plant and animal communities, ultimately reshaping the species, ecosystem services and forest management practices those communities support. Many plant and animal species are under threat from warming and must rapidly adapt through phenological shifts and/or range shifts northward to avoid harsher southern climatic conditions \citep{Parmesan2003, Schwartz2006}. There is increasing evidence that climate change is exasperated at higher elevations \citep{Giorgi1997,Rangwala2012,Pepin2015} and at higher elevations species' ranges could be restricted, potentially leading to regional extinction \citep{Bachelet2001, Potter2008}. Thus, through the effects of stress and disturbance from warming, tree species migration will be adversely affected, leading to profound impacts on forests and carbon sinks \citep{Opdam2004}. % may further hinder tree species migration
   
 Natural forests are some of the most biodiverse habitats in the United States \citep{White1988} and with climate change, the southeastern forests of Appalachia are predicted to be under threat from increased wildfires and rapid conversion to savanna \citep{Bachelet2001}. Due to exploitative logging, clearcutting, grazing and wildfires at mid-elevations, these forests have become less complex over time, converted from historically mixed-oak stands to more homogenized stands of yellow poplar or red maple and American beech \citep{Lorimer1989, Rentch2003, Rentch2003b, Runkle1982}. Climate change coupled with rapid land-use change is resulting in the creation of gaps of varying size within forest canopies \citep{Canham1999}. The combined effects of increasing temperatures and decreasing precipitation is impacting tree species differently, with extensive effects on drought-intolerant species leading to northward and westward range shifts \citep{Fei2017}. Additionally, there is growing evidence that southern Appalachian forests are transitioning to shade-tolerant, fire-resistent species such red maple and American beech \citep{Fei2017, Knott2019} and there is a reduction in foundation species' regeneration \citep{Izbicki2020}.
@@ -114,11 +63,8 @@ Disturbance to canopy trees and the creation of gaps in forests can lead to myri
   
 \textbf{Expected Outcomes and Significance:} Through the interactive effects of climate change and rapid land-use change, gap size and location will influence soil microclimatic conditions as well as nutrient availability. We expect light availability and soil temperatures to be greatest in the northern portion of the gap, while maximum soil moisture will occur in the southern portion of the gap \citep{Schatz2012, Raymond2006}.  By examining belowground responses to canopy gaps through soil moisture, temperature and nutrient composition, we will be able to greatly improve predictive climate models for the region and likely contribute to global modelling systems. 
 
-%The soil microbial community strongly influences the ecosystem’s response to environmental change. Soil moisture, pH, temperature, cation exchange capacity and elemental concentrations influence soil microbial community structure and functional diversity. A number of recent studies have evaluated the effects of various intensities of forest harvesting on soil microbial community structure \citep{Lewandowski2015, Lewandowski2016}. In general, our knowledge of belowground responses to canopy gaps remains weak \citep{Schliemann2011}.
 
-%The effects of the gap creation will vary over time and space, with gap effects immediately influencing microclimate and nutrient availability \citep{Canham1999, Mladenoff1987, Burton2014, Schatz2012}. We expect light availability and soil temperatures to be greatest in the northern portion of the gap, while maximum soil moisture will occur in the southern portion of the gap \citep{Schatz2012, Raymond2006}. Changes in soil microbial composition have been related to substrate availability and soil temperature patterns. Few studies have related changing patterns in throughfall created by forest harvesting to soil microbial community structure. Canopy conditions will influence water and solute distribution to forest soils, through either throughfall which accounts for the majority of rainfall reaching forest soils, or stemflow.
-
-\noindent\large{\textbf{Proposed Research Timeline:}}
+\noindent\Large{\textbf{Proposed Research Timeline:}}
 \begin{center}
 %\captionof{table}{Proposed Reseach Outline}
 \begin{tabular}{| c | c | l | l |}
