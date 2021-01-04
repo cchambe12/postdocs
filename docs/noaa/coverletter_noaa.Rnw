@@ -1,0 +1,30 @@
+\documentclass[11pt,a4paper]{letter}
+\usepackage[top=1.00in, bottom=1.0in, left=1.1in, right=1.1in]{geometry}
+\usepackage{graphicx}
+\usepackage[T1]{fontenc}
+\usepackage{datetime}
+
+\begin{document}
+\begin{letter}{}
+
+
+\includegraphics[width=0.4\textwidth]{AA_logo.jpg}
+\begin{flushright}
+\noindent 4 January 2020\\
+\end{flushright}
+\noindent Dear UCAR Steering Committee:\\ %% Dear Hiring Manager: or Dear Recruiting Manager, 
+\vspace{1ex}\\
+\noindent I am writing to express my interest in the UCAR CPAESS NOAA Climate \& Global Change Postdoctoral program. I will graduate with a PhD in Organismic and Evolutionary Biology from Harvard University in May 2021, and I am confident my experience as an ecologist and climate scientist will allow me to contribute to the successful integration and expansion of climate change research as well as collaboration with North Carolina State University, US Forest Service and The Nature Conservancy. \\
+
+\noindent As part of the proposed research plan, I will work alongside Dr. Zakiya Leggett, who will act as my primary advisor and represent the host institution of North Carolina State University. By working with Dr. Leggett, I will expand my knowledge in soil ecology, nutrient cycling and carbon storage. I will also have access to new phytotron and greenhouse facilities on campus. My research plan also includes a postdoctoral committee, who will act as collaborators and mentors throughout my proposed research program: Dr. Colleen Doherty, an associate professor in the College of Agriculture and Life Sciences at North Carolina State; Dr. Tara Keyser, Director with the USDA Forest Service Southern Research Station and adjunct associate professor in the College of Natural Resources at North Carolina State University; and Dr. Liz Kalies, Director of Science at The Nature Conservancy in Durham, North Carolina. \\
+
+\noindent If given the opportunity to work alongside Dr. Leggett, Dr. Doherty, Dr. Keyser and Dr. Kalies, I will not only learn and grow as an individual scientist but I will also be able to extend and build interdisciplinary research outcomes that will target a broader audience of climate leadership. As a postdoctoral fellow, I will help train BIPOC students using a pipeline program, where I will mentor graduate students, graduate students will mentor undergraduate students and undergraduate students will mentor high school students. This pipeline program and integration of other non-academic agencies will help bolster climate change research and train future generations of climate scientists.  \\
+
+\noindent I first learned of this opportunity through my current research advisor, Dr. Elizabeth Wolkovich. I would relish the opportunity to leverage my research and communitcation skills to better align with the NOAA Climate Program Office. Thank you for your consideration. \\
+
+
+\noindent Sincerely,\\
+\noindent Catherine J Chamberlain 
+
+\end{letter}
+\end{document}
